@@ -1,0 +1,35 @@
+a:link {
+	color: #993333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #993333;
+}
+a:hover {
+	text-decoration: none;
+	color: #993333;
+}
+a:active {
+	text-decoration: none;
+	color: #993333;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 100px;
+}
+.middle {
+  width: 250px;
+}
+.right {
+  width: 200px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
